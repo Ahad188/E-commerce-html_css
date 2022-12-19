@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title> AC</title>
+     <link rel="stylesheet" href="./style.css">
+     <!--google font-->
+     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@1,100;1,300&family=Rubik:ital,wght@0,300;0,400;0,800;0,900;1,400;1,500&family=The+Nautigal:wght@700&display=swap" rel="stylesheet">
+     <!--fonasome cdn-->
+     <script src="https://kit.fontawesome.com/a10194993b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!--header-->
+     <div class="container">
+          <div class="navber">
+               <div class="logo">
+                    <img src="./images/logo.png" width="125px">
+               </div>
+                    <nav>
+                         <ul id="menuitems">
+                              <li><a href="#">Home</a></li>
+                              <li><a href="#">Produtch</a></li>
+                              <li><a href="#">About</a></li>
+                              <li><a href="#">Contack</a></li>
+                              <li><a href="#">Home</a></li>
+                         </ul>
+                    </nav>
+               <img src="./images/cart.png" width="30px" height="30px">
+               <img src="./images/menu.png" class="menu-icon" onclick="menutoggol()">
+          </div>
+     </div><!--header end-->
+
+     <!-- accout page -->
+     <div class="account-page">
+          <div class="container">
+               <div class="row">
+                    <div class="col-2">
+                         <img src="./images/image1.png" alt="" width="100%">
+                    </div>
+                    <div class="col-2">
+                         <div class="form-container">
+                              <div class="form-btn">
+                                   <span onclick="login()">Login</span>
+                                   <span onclick="regs()">Register</span>
+                                   <hr id="ind">
+                              </div>
+                              <form id="log">
+                                   <input type="text" placeholder="User Name" required>
+                                   <input type="password" placeholder="Enter Password" required>
+                                   <button type="button" class="btn">Login</button>
+                                   <a href="">Forget Password</a>
+                              </form>
+                              <form id="reg">
+                                   <input type="text" placeholder="User Name" required>
+                                   <input type="email" placeholder="Enter a Email">
+                                   <input type="password" placeholder="Enter Password" required>
+                                   <button type="button" class="btn">Register</button>
+                                    
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+                 
+     <!--footer-->
+     <div class="footer">
+          <div class="container">
+               <div class="row">
+                    <div class="footer-col-1">
+                         <h3>Dowonlod Our App</h3>
+                         <p>Dowonlod App For Android  Ios Mobile  Phone</p>
+                         <div class="app-logo">
+                              <img src="./images/play-store.png">
+                              <img src="./images/app-store.png">
+                         </div>
+                    </div>
+                    <div class="footer-col-2">
+                         <img src="./images/logo-white.png" >
+                         <p>Dowonlod App For Android  Ios Mobile  Phone</p>
+                    </div>
+                    <div class="footer-col-3">
+                         <h3>Usefull Link</h3>
+                          <ul>
+                              <li>Coupons</li>
+                              <li>Blog Post</li>
+                              <li> Return Policy</li>
+                              <li> Join Affilate</li>
+                          </ul>
+                    </div>
+                    <div class="footer-col-3">
+                         <h3>Follo us</h3>
+                          <ul>
+                              <li>Facebook</li>
+                              <li>Instragram</li>
+                              <li>Twiter</li>
+                              <li> Youtube</li>
+                          </ul>
+                    </div>
+               </div>
+               <hr>
+               <p class="copy-right">
+                    Copy Right 2022@ youtube
+               </p>
+          </div>
+     </div>
+     <script src="./ecomarce.js"></script>
+</body>
+</html>
